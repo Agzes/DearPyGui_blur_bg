@@ -63,6 +63,10 @@ while dpg.is_dearpygui_running():
     dpg.render_dearpygui_frame()
 dpg.destroy_context()
 ```
-Result:
+Result (with `window_effect.setRoundedCorners(get_hwnd(), 10)` ):
 
 ![image](https://github.com/Agzes/DearPyGui_blur_bg/assets/103037173/0be92131-8c58-4dcd-8760-4df5eb3f168d)
+
+Result:
+
+![image](https://github.com/Agzes/DearPyGui_blur_bg/assets/103037173/7f41b70b-f99d-4665-8e4b-7b959dac64e8)
