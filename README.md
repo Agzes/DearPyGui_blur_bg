@@ -1,4 +1,4 @@
-# DearPyGui_blur_bg
+# DearPyGui_blur_bg (Only Windows)
 
 ! Move dpg_blur in folder of your project !
 
