@@ -45,6 +45,7 @@ class WindowsWindowEffect:
         self.winCompAttrData.Data = pointer(self.accentPolicy)
     def setAeroEffect(self, hWnd):
         self.winCompAttrData.Attribute = 19
+        self.accentPolicy.AccentState = 3
         self.SetWindowCompositionAttribute(hWnd, pointer(self.winCompAttrData))
     def setRoundedCorners(self, hWnd, radius):
         self.DwmSetWindowAttribute(hWnd, wintypes.DWORD(33), byref(wintypes.INT(2)), wintypes.UINT(sizeof(wintypes.INT)))
